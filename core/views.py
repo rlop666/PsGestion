@@ -1,7 +1,7 @@
 from djando shortcuts import render, HttpResponse
 
 def home(request):
-  return HttpResponse("El código HTML que corresponda")
+  return render(response, 'home.html')
 
 def about(request):
-  return HttpResponse("El código HTML que corresponda")
+  return render(response, 'about.html')
