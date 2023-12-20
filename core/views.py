@@ -1,7 +1,7 @@
 from djando shortcuts import render, HttpResponse
 
 def home(request):
-  return render(response, 'home.html')
+  return render(response, "core/home.html")
 
 def about(request):
-  return render(response, 'about.html')
+  return render(response, "core/about.html")
