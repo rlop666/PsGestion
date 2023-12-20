@@ -1,4 +1,6 @@
 <!-- indicamos que va a utilizar lo que hay en base.html -->
 {% extends 'core/base.html' %}
 
+{% block content %}
 El código html que corresponda
+{% endblock %}
